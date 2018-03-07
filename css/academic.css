@@ -1,7 +1,3 @@
-
-
-
-  
 /*************************************************
  *  Hugo Academic: an academic theme for Hugo.
  *  Designed by @GeorgeCushen.
@@ -25,14 +21,14 @@
 }
 
 html {
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  font-family: '{{ .Get "body_font" }}', sans-serif;
+  font-size: {{ .Get "font_size_small" }}px;
   color: rgba(0,0,0,0.8);
   line-height: 1.65;
 }
 @media screen and (min-width: 58em) {
   html {
-    font-size: 17px;
+    font-size: {{ .Get "font_size" }}px;
   }
 }
 
@@ -65,7 +61,7 @@ ul, ol, dl {
 
 /* Navigation bar text */
 .navbar-default {
-  font-family: 'Roboto', sans-serif;
+  font-family: '{{ .Get "nav_font" }}', sans-serif;
   font-weight: 400;
   line-height: 1.25;
   text-rendering: optimizeLegibility;
@@ -73,8 +69,8 @@ ul, ol, dl {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  font-family: '{{ .Get "heading_font" }}', sans-serif;
+  font-weight: 200;
   margin-bottom: .5rem;
   line-height: 1.25;
   color: #313131;
@@ -100,20 +96,20 @@ h4, h5, h6 {
 
 a,
 h3.article-title a:hover {
-  color: #0095eb;
+  color: {{ .Get "primary" }};
   text-decoration: none;
   transition: color 0.6s ease;
 }
 
 a:hover,
 a:focus {
-  color: #0095eb;
+  color: {{ .Get "primary" }};
 }
 
 img,
 video {
   height: auto;
-  max-width: 50%;
+  max-width: 500px;
   display: block;
 }
 
@@ -134,7 +130,7 @@ figcaption {
   line-height: 1.25;
   font-size: 1rem;
   margin-bottom: 1.65rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: '{{ .Get "heading_font" }}', sans-serif;
   counter-increment: captions;
 }
 
@@ -147,7 +143,7 @@ figcaption h4 {
 
 pre,
 code {
-  font-family: 'Roboto Mono', monospace;
+  font-family: '{{ .Get "mono_font" }}', monospace;
   color: #c7254e;
   background-color: #f9f2f4;
 }
@@ -243,7 +239,7 @@ small,
 }
 
 .home-section {
-  background-color: rgb(255, 255, 255);
+  background-color: {{ .Get "home_section_odd" }};
   padding: 110px 0 110px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s;
@@ -254,7 +250,7 @@ small,
 }
 
 .home-section:nth-of-type(even) {
-  background-color: rgb(247, 247, 247);
+  background-color: {{ .Get "home_section_even" }};
 }
 
 @media screen and (max-width: 768px) {
@@ -529,7 +525,7 @@ article {
 }
 
 .article-metadata a:hover {
-  color: #0095eb;
+  color: {{ .Get "primary" }};
 }
 
 .article-list-item {
@@ -863,8 +859,8 @@ footer a#back_to_top i {
  **************************************************/
 
 .btn-primary {
-  border-color: #0095eb !important;
-  background: #0095eb !important;
+  border-color: {{ .Get "primary" }} !important;
+  background: {{ .Get "primary" }} !important;
 }
 
 .btn-primary:hover,
@@ -872,7 +868,7 @@ footer a#back_to_top i {
 .btn-primary.active,
 .btn-primary:visited,
 .open > .dropdown-toggle.btn-primary {
-  background: #0095eb !important;
+  background: {{ .Get "primary" }} !important;
 }
 
 .btn-light {
@@ -906,12 +902,12 @@ footer a#back_to_top i {
 
 .btn-toolbar .btn.btn-primary:hover,
 .btn-toolbar .btn.btn-primary:focus {
-  background-color: #0069c0 !important;
+  background-color: {{ .Get "primary_dark" }} !important;
 }
 
 .btn-toolbar .btn.btn-primary:active,
 .btn-toolbar .btn.btn-primary.active {
-  background-color: #6ec6ff !important;
+  background-color: {{ .Get "primary_light" }} !important;
 }
 
 /*************************************************
@@ -925,12 +921,12 @@ footer a#back_to_top i {
 }
 
 .btn-primary.btn-outline {
-  color: #0095eb !important;
-  border-color: #0095eb !important;
+  color: {{ .Get "primary" }} !important;
+  border-color: {{ .Get "primary" }} !important;
 }
 
 .btn-primary.btn-outline:focus {
-  color: #0095eb !important;
+  color: {{ .Get "primary" }} !important;
 }
 
 .btn-primary.btn-outline:active {
@@ -984,7 +980,7 @@ footer a#back_to_top i {
 }
 
 .navbar-default {
-  background: #fff;
+  background: {{ .Get "menu_primary" }};
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11)
 }
 
@@ -998,7 +994,7 @@ footer a#back_to_top i {
 }
 
 nav#navbar-main li {
-  font-size: 14px;
+  font-size: {{ .Get "font_size_small" }}px;
 }
 
 .navbar-default .navbar-nav>li>a,
@@ -1007,24 +1003,24 @@ nav#navbar-main li {
   white-space: nowrap;
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
-  color: #34495e;
+  color: {{ .Get "menu_text" }};
   font-weight: 600;
 }
 
 .navbar-default .navbar-nav>li>a:focus {
-  color: #34495e;
+  color: {{ .Get "menu_text" }};
   background-color: transparent;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-  color: #0095eb;
+  color: {{ .Get "menu_text_active" }};
   background-color: transparent;
 }
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-  color: #0095eb;
+  color: {{ .Get "menu_text_active" }};
   font-weight: 700;
   background-color: transparent !important; /* Override Bootstrap. */
 }
@@ -1042,11 +1038,11 @@ nav#navbar-main li {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #34495e !important;
+  background-color: {{ .Get "menu_text" }} !important;
 }
 
 .dropdown-menu {
-  background-color: #fff !important;
+  background-color: {{ .Get "menu_primary" }} !important;
 }
 
 .dropdown-menu > li > a {
@@ -1055,23 +1051,23 @@ nav#navbar-main li {
   clear: both;
   font-weight: 400;
   line-height: 1.42857143;
-  color: #34495e;
+  color: {{ .Get "menu_text" }};
   white-space: nowrap;
 }
 
 .dropdown-menu>li>a:focus,
 .dropdown-menu>li>a:hover {
-  color: #0095eb;
+  color: {{ .Get "menu_text_active" }};
   text-decoration: none;
-  background-color: #fff;
+  background-color: {{ .Get "menu_primary" }};
 }
 
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:focus,
 .dropdown-menu > .active > a:hover {
-  color: #fff;
+  color: {{ .Get "menu_primary" }};
   text-decoration: none;
-  background-color: #0095eb;
+  background-color: {{ .Get "menu_text_active" }};
   outline: 0;
 }
 
@@ -1079,20 +1075,20 @@ nav#navbar-main li {
 .navbar-default .navbar-nav>.open>a:focus,
 .navbar-default .navbar-nav>.open>a:hover,
 .navbar-default .navbar-nav>.open>a:visited {
-  color: #34495e !important;
-  background-color: #fff !important;
+  color: {{ .Get "menu_text" }} !important;
+  background-color: {{ .Get "menu_primary" }} !important;
 }
 
 .navbar-default .navbar-brand {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.2em;
-  color: #2b2b2b;
+  color: {{ .Get "menu_title" }};
 }
 
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:hover {
-  color: #2b2b2b;
+  color: {{ .Get "menu_title" }};
   background-color: transparent;
 }
 
@@ -1157,7 +1153,7 @@ nav#navbar-main li {
     clear: both;
     font-weight: 400;
     line-height: 1.42857143;
-    color: #34495e;
+    color: {{ .Get "menu_text" }};
     white-space: nowrap;
   }
 
@@ -1174,7 +1170,7 @@ nav#navbar-main li {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     padding: 5px 15px 5px 25px;
     line-height: 20px;
-    color: #34495e;
+    color: {{ .Get "menu_text" }};
   }
 
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
@@ -1186,7 +1182,7 @@ nav#navbar-main li {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
-    color: #0095eb;
+    color: {{ .Get "menu_text_active" }};
     background-color: transparent;
   }
 
@@ -1342,7 +1338,7 @@ body.dark {
 }
 
 .dark ul.share li a {
-  background-color: #0095eb;
+  background-color: {{ .Get "primary" }};
 }
 
 .dark table table {
@@ -1396,7 +1392,7 @@ body.dark {
 }
 
 .dark .card h4 a {
-  color: #0095eb;
+  color: {{ .Get "primary" }};
   border-bottom: solid 1px transparent;
 }
 
