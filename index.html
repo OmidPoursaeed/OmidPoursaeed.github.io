@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.31.1" />
+  <meta name="generator" content="Hugo 0.37.1" />
   <meta name="author" content="Omid Poursaeed">
   <meta name="description" content="PhD student at Cornell University &amp; Cornell Tech">
 
@@ -44,6 +44,8 @@
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
   
   <link rel="stylesheet" href="/styles.css">
+  
+  <link rel="stylesheet" href="/css/academic.css">
   
 
   
@@ -203,6 +205,9 @@
     <div id="profile">
 
       
+      <div class="portrait" style="background-image: url('https://omidpoursaeed.github.ioimg/omid.png');"></div>
+      <meta itemprop="image" content="https://omidpoursaeed.github.ioimg/omid.png">
+      
 
       <div class="portrait-title">
         <h2 itemprop="name">Omid Poursaeed</h2>
@@ -271,6 +276,15 @@
 
 <p>I am a PhD student at <a href="https://www.cornell.edu" target="_blank">Cornell University</a> and <a href="https://tech.cornell.edu" target="_blank">Cornell Tech</a> working with Professor <a href="http://blogs.cornell.edu/techfaculty/serge-belongie/" target="_blank">Serge Belongie</a>. My research interests include Computer Vision and Machine Learning with focus on Deep Learning and Generative Models. I received my B.S. (with honor) from <a href="http://www.en.sharif.edu" target="_blank">Sharif University of Technology</a> in 2015. I am also a recipient of Jacobs Fellowship from Cornell University.</p>
 
+<p><br/>
+<br/>
+<br/>
+<img src="/img/adobe.jpg" alt="static/img/omid.png" />
+<img src="/img/cornell-tech.png" alt="static/img/omid.png" />
+<img src="/img/ebay.jpg" alt="static/img/omid.png" />
+<img src="/img/cornell.png" alt="static/img/omid.png" />
+<img src="/img/sharif.png" alt="static/img/omid.png" /></p>
+
 
     <div class="row">
 
@@ -331,7 +345,7 @@
 
       <div class="pub-abstract" itemprop="text">
         
-        In this paper, we propose novel generative models for creating adversarial examples, slightly perturbed images resembling natural images but maliciously crafted to fool pre-trained models. We present trainable deep neural networks for transforming images to adversarial perturbations. Our proposed models can produce image-agnostic and image-dependent perturbations for both targeted and non-targeted attacks. We also demonstrate that similar architectures can achieve impressive results in fooling classification and semantic segmentation models, obviating the need for hand-crafting attack methods for each task. Using extensive experiments on challenging high-resolution datasets such as ImageNet and Cityscapes, we show that our perturbations achieve high fooling rates with small perturbation norms. Moreover, our attacks are considerably faster than current iterative methods at inference time.
+        We present trainable deep neural networks for transforming images to adversarial perturbations. Our proposed models can produce image-agnostic and image-dependent perturbations for both targeted and non-targeted attacks. We also demonstrate that similar architectures can achieve impressive results in fooling classification and semantic segmentation models, obviating the need for hand-crafting attack methods for each task. We improve the state-of-the-art performance in universal perturbations by leveraging generative models in lieu of iterative methods. Moreover, our attacks are considerably faster than current methods at inference time. We can generate perturbations in the order of milliseconds.
         
       </div>
 
@@ -357,6 +371,11 @@
 
 
 
+
+<button type="button" class="btn btn-primary btn-outline btn-xs js-cite-modal"
+        data-filename="/files/citations/generative-adversarial-perturbations.bib">
+  Cite
+</button>
 
 
 
@@ -403,7 +422,7 @@
 
       <div class="pub-abstract" itemprop="text">
         
-        In this paper, we propose a novel generative model named Stacked Generative Adversarial Networks (SGAN), which is trained to invert the hierarchical representations of a bottom-up discriminative network. Our model consists of a top-down stack of GANs, each learned to generate lower-level representations conditioned on higher-level representations. A representation discriminator is introduced at each feature hierarchy to encourage the representation manifold of the generator to align with that of the bottom-up discriminative network, leveraging the powerful discriminative representations to guide the generative model. In addition, we introduce a conditional loss that encourages the use of conditional information from the layer above, and a novel entropy loss that maximizes a variational lower bound on the conditional entropy of generator outputs. We first train each stack independently, and then train the whole model end-to-end. Unlike the original GAN that uses a single noise vector to represent all the variations, our SGAN decomposes variations into multiple levels and gradually resolves uncertainties in the top-down generative process. Based on visual inspection, Inception scores and visual Turing test, we demonstrate that SGAN is able to generate images of much higher quality than GANs without stacking.
+        We propose a novel generative model named Stacked Generative Adversarial Networks (SGAN), which is trained to invert the hierarchical representations of a bottom-up discriminative network. Our model consists of a top-down stack of GANs, each learned to generate lower-level representations conditioned on higher-level representations. A representation discriminator is introduced at each feature hierarchy to encourage the representation manifold of the generator to align with that of the bottom-up discriminative network, leveraging the powerful discriminative representations to guide the generative model. Based on visual inspection, Inception scores and visual Turing test, we demonstrate that SGAN is able to generate images of much higher quality than GANs without stacking.
         
       </div>
 
@@ -429,6 +448,11 @@
 
 
 
+
+<button type="button" class="btn btn-primary btn-outline btn-xs js-cite-modal"
+        data-filename="/files/citations/stacked-generative-adversarial-networks.bib">
+  Cite
+</button>
 
 
 <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/xunhuang1995/SGAN" target="_blank" rel="noopener">
@@ -479,7 +503,7 @@
 
       <div class="pub-abstract" itemprop="text">
         
-        Since the advent of online real estate database companies like Zillow, Trulia and Redfin, the problem of automatic estimation of market values for houses has received considerable attention. Several real estate websites provide such estimates using a proprietary formula. Although these estimates are often close to the actual sale prices, in some cases they are highly inaccurate. One of the key factors that affects the value of a house is its interior and exterior appearance, which is not considered in calculating automatic value estimates. In this paper, we evaluate the impact of visual characteristics of a house on its market value. Using deep convolutional neural networks on a large dataset of photos of home interiors and exteriors, we develop a method for estimating the luxury level of real estate photos. We also develop a novel framework for automated value assessment using the above photos in addition to home characteristics including size, offered price and number of bedrooms. Finally, by applying our proposed method for price estimation to a new dataset of real estate photos and metadata, we show that it outperforms Zillow&rsquo;s estimates.
+        Several online real estate database companies provide automatic estimation of market values for houses using a proprietary formula. Although these estimates are often close to the actual sale prices, in some cases they are highly inaccurate. One of the key factors that affects the value of a house is its interior and exterior appearance, which is not considered in calculating these estimates. In this paper, we evaluate the impact of visual characteristics of a house on its market value. Using deep convolutional neural networks on a large dataset of photos of home interiors and exteriors, we develop a method for estimating the luxury level of real estate photos. We also develop a novel framework for automated value assessment using the above photos in addition to home characteristics including size, offered price and number of bedrooms. Finally, by applying our proposed method for price estimation to a new dataset of real estate photos and metadata, we show that it outperforms Zillow&rsquo;s estimates.
         
       </div>
 
@@ -490,7 +514,7 @@
       </div>
 
       <div class="pub-publication">
-        Under Review,&nbsp;2017.
+        Machine Vision and Applications,&nbsp;2017.
       </div>
 
       <div class="pub-links">
@@ -499,12 +523,17 @@
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/1707.05489.pdf" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline btn-xs" href="http://rdcu.be/KzC9" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
+
+<button type="button" class="btn btn-primary btn-outline btn-xs js-cite-modal"
+        data-filename="/files/citations/vision-based-real-estate-price-estimation.bib">
+  Cite
+</button>
 
 
 
@@ -553,6 +582,7 @@
   </div>
   <div class="col-xs-12 col-md-8">
     <ul>
+<li>Research Intern: <strong>Adobe Research</strong>, Summer 2018 <br /></li>
 <li>Research Intern: <strong>eBay Research</strong>, Summer 2017 <br />
 Generative Modeling of street-fashion imagery: Designed a model to effectively generate stock quality images from street-fashion photos using Generative Adversarial Networks (patent pending).</li>
 </ul>
