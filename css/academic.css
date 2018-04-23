@@ -109,7 +109,7 @@ a:focus {
 img,
 video {
   height: auto;
-  width: 140px;
+  max-width: 140px; #200px;
   display: inline-block;
 }
 
