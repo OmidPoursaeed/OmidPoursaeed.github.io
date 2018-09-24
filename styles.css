@@ -26,7 +26,7 @@
 
 html {
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   color: rgba(0,0,0,0.8);
   line-height: 1.65;
 }
@@ -998,7 +998,7 @@ footer a#back_to_top i {
 }
 
 nav#navbar-main li {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .navbar-default .navbar-nav>li>a,
