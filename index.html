@@ -8,7 +8,7 @@
   <meta name="theme" content="hugo-academic">
   <meta name="generator" content="Hugo 0.37.1" />
   <meta name="author" content="Omid Poursaeed">
-  <meta name="description" content="PhD student at Cornell University &amp; Cornell Tech">
+  <meta name="description" content="PhD Candidate at Cornell University &amp; Cornell Tech">
 
   
   <link rel="alternate" hreflang="en-us" href="https://omidpoursaeed.github.io/">
@@ -66,7 +66,7 @@
   <meta property="og:site_name" content="Omid Poursaeed">
   <meta property="og:url" content="https://omidpoursaeed.github.io/">
   <meta property="og:title" content="Omid Poursaeed">
-  <meta property="og:description" content="PhD student at Cornell University &amp; Cornell Tech">
+  <meta property="og:description" content="PhD Candidate at Cornell University &amp; Cornell Tech">
   <meta property="og:locale" content="en-us">
   
   <meta property="og:updated_time" content="2016-04-20T00:00:00&#43;00:00">
@@ -211,7 +211,7 @@
 
       <div class="portrait-title">
         <h2 itemprop="name">Omid Poursaeed</h2>
-        <h3 itemprop="jobTitle">PhD student at Cornell University &amp; Cornell Tech</h3>
+        <h3 itemprop="jobTitle">PhD Candidate at Cornell University &amp; Cornell Tech</h3>
 
         
         
@@ -274,9 +274,9 @@
 
 <h1 id="about">About</h1>
 
-<p>I am a PhD student at <a href="https://www.cornell.edu" target="_blank">Cornell University</a> and <a href="https://tech.cornell.edu" target="_blank">Cornell Tech</a> working with Professor <a href="http://blogs.cornell.edu/techfaculty/serge-belongie/" target="_blank">Serge Belongie</a>. My research interests include Computer Vision and Machine Learning with focus on Deep Learning and Generative Models. I received my B.S. (with honor) from <a href="http://www.en.sharif.edu" target="_blank">Sharif University of Technology</a> in 2015. I am also a recipient of Jacobs Fellowship from Cornell University.<br />
+<p>I am a PhD candidate at <a href="https://www.cornell.edu" target="_blank">Cornell University</a> and <a href="https://tech.cornell.edu" target="_blank">Cornell Tech</a> working with Professor <a href="http://blogs.cornell.edu/techfaculty/serge-belongie/" target="_blank">Serge Belongie</a>. My research interests include Computer Vision and Machine Learning with focus on Deep Learning and Generative Models. I received my B.S. (with honor) from <a href="http://www.en.sharif.edu" target="_blank">Sharif University of Technology</a> in 2015. I am also a recipient of Jacobs Fellowship from Cornell University.<br />
 <br/>
-For more information, please refer to my <a href="https://drive.google.com/file/d/1k0xWQalf1CREoL9ooLxZcE74IVTOogSe/view?usp=sharing" target="_blank">CV</a>.
+For more information, please refer to my <a href="https://drive.google.com/file/d/1_N2mLkQBoDx2VDC0XTAmjuzFCPhsjkEd/view?usp=sharing" target="_blank">CV</a>.
 <br/>
 <br/>
 <br/>
@@ -329,6 +329,64 @@ For more information, please refer to my <a href="https://drive.google.com/file/
     
 
     <div class="col-md-12">
+
+    
+
+      <h3 class="article-title" itemprop="name">
+        <a href="https://omidpoursaeed.github.io/publication/generative-neural-networks-for-2.5d-character-animation/" itemprop="url">Generative Neural Networks for 2.5D Character Animation</a>
+      </h3>
+
+      <div class="pub-abstract" itemprop="text">
+        
+        Several techniques have been developed to make it easier for non-experts to create animations by leveraging a database of existing cartoons. These methods typically require registering a deformable model to each frame in the database, and then using the deformation parameters to infer the subspace of plausible deformations. We address challenges of performing this registration on cartoon data, that usually lacks texture and exhibits strong expressive articulations. We leverage deep neural networks to learn registering a deformable mesh model to images of cartoon characters. Characters are parametrized as deformable 2.5D meshes with a given initial template and a learned per-instance deformation. Layering is used to handle occlusions and moving body parts. Our method takes unlabeled images as input, and does not require ground-truth vertex positions. Using experiments on various characters, we demonstrate that our model successfully learns to deform the template based on input images. We also show applications of our model such as inbetweening, user-constrained deformation and correspondence estimation.
+        
+      </div>
+
+      <div class="pub-authors" itemprop="author">
+        
+        Omid Poursaeed, Vladimir Kim, Eli Shechtman, Jun Saito, Serge Belongie
+        
+      </div>
+
+      <div class="pub-publication">
+        Under Review,&nbsp;2018.
+      </div>
+
+      <div class="pub-links">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="row">
+
+    
+
+    <div class="col-md-12">
       <a href="https://omidpoursaeed.github.io/publication/generative-adversarial-perturbations/">
         <img src="/img/GAP_Architecture.jpg" class="pub-banner"
              itemprop="image">
@@ -344,7 +402,7 @@ For more information, please refer to my <a href="https://drive.google.com/file/
 
       <div class="pub-abstract" itemprop="text">
         
-        In this paper, we propose novel generative models for creating adversarial examples. We present trainable deep neural networks for transforming images to adversarial perturbations. Our proposed models can produce image-agnostic and image-dependent perturbations for both targeted and non-targeted attacks. We also demonstrate that similar architectures can achieve impressive results in fooling classification and semantic segmentation models, obviating the need for hand-crafting attack methods for each task. We improve the state-of-the-art performance in universal perturbations by leveraging generative models in lieu of current iterative methods. Moreover, we are the first to present effective targeted universal perturbations. Our attacks are considerably faster than iterative and optimization-based methods at inference time. We can generate perturbations in the order of milliseconds.
+        In this paper, we propose novel generative models for creating adversarial examples, slightly perturbed images resembling natural images but maliciously crafted to fool pre-trained models. We present trainable deep neural networks for transforming images to adversarial perturbations. Our proposed models can produce image-agnostic and image-dependent perturbations for both targeted and non-targeted attacks. We also demonstrate that similar architectures can achieve impressive results in fooling both classification and semantic segmentation models, obviating the need for hand-crafting attack methods for each task. We improve the state-of-the-art performance in universal perturbations by leveraging generative models in lieu of current iterative methods. Moreover, we are the first to present effective targeted universal perturbations. Our attacks are considerably faster than iterative and optimization-based methods at inference time. We can generate perturbations in the order of milliseconds.
         
       </div>
 
