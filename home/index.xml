@@ -95,6 +95,15 @@
     </item>
     
     <item>
+      <title>Patents</title>
+      <link>https://omidpoursaeed.github.io/home/patents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/home/patents/</guid>
+      <description> Object animation using Generative Neural Networks, with Vladimir Kim, Jun Saito and Eli Shectman (pending)  Generating stock images from street-fashion photos via a stack of Generative Adversarial Neural Networks, with Shuai Zheng, Hadi Kiapour and Robinson Piramuthu (pending)  </description>
+    </item>
+    
+    <item>
       <title>Contact</title>
       <link>https://omidpoursaeed.github.io/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>

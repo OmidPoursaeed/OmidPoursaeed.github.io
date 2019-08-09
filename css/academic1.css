@@ -70,7 +70,7 @@ ul, ol, dl {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   font-family: '{{ .Get "heading_font" }}', sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   margin-bottom: .5rem;
   line-height: 1.25;
   color: #313131;
@@ -109,8 +109,8 @@ a:focus {
 img,
 video {
   height: auto;
-  max-width: 500px;
-  display: block;
+  max-width: 100%; #200px;
+  display: inline-block;
 }
 
 .img-responsive {
@@ -331,7 +331,7 @@ small,
 
 #profile .portrait {
   background-image: url('../img/portrait.jpg');
-  width: 250px;
+  width: 450px;
   height: 250px;
   margin: 0 auto;
   border-radius: 50%;
@@ -559,6 +559,7 @@ article {
   margin-bottom: 60px;
   padding-left: 0;
   padding-right: 0;
+  display: inline-block;
 }
 
 .article-style td img,
@@ -636,7 +637,7 @@ article {
 .pub-list-item .pub-authors {
   line-height: normal;
   font-style: normal;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #3170A5;
 }
 
