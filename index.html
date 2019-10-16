@@ -45,7 +45,7 @@
   
   <link rel="stylesheet" href="/styles.css">
   
-  <link rel="stylesheet" href="/css/academic.css">
+  <link rel="stylesheet" href="/css/academic1.css">
   
 
   
@@ -162,9 +162,9 @@
         
 
         <li class="nav-item">
-          <a href="/#patents" data-target="#patents">
+          <a href="/#professional_service" data-target="#professional_service">
             
-            <span>Patents</span>
+            <span>Service</span>
             
           </a>
         </li>
@@ -179,9 +179,9 @@
         
 
         <li class="nav-item">
-          <a href="/#professional_service" data-target="#professional_service">
+          <a href="/#patents" data-target="#patents">
             
-            <span>Service</span>
+            <span>Patents</span>
             
           </a>
         </li>
@@ -239,8 +239,8 @@
     <div id="profile">
 
       
-      <div class="portrait" style="background-image: url('https://omidpoursaeed.github.io/img/omid.png');"></div>
-      <meta itemprop="image" content="https://omidpoursaeed.github.io/img/omid.png">
+      <div class="portrait" style="background-image: url('https://omidpoursaeed.github.io/img/omid1.jpg');"></div>
+      <meta itemprop="image" content="https://omidpoursaeed.github.io/img/omid1.jpg">
       
 
       <div class="portrait-title">
@@ -366,16 +366,22 @@
     
 
     <div class="col-md-12">
+      <a href="https://omidpoursaeed.github.io/publication/generative-neural-networks-for-2.5d-character-animation/">
+        <img src="/img/Neural_Puppet.png" class="pub-banner"
+             itemprop="image">
+      </a>
+    </div>
+    <div class="col-md-12">
 
     
 
       <h3 class="article-title" itemprop="name">
-        <a href="https://omidpoursaeed.github.io/publication/generative-neural-networks-for-2.5d-character-animation/" itemprop="url">Generative Neural Networks for 2.5D Character Animation</a>
+        <a href="https://omidpoursaeed.github.io/publication/generative-neural-networks-for-2.5d-character-animation/" itemprop="url">Neural Puppet: Generative Layered Cartoon Characters</a>
       </h3>
 
       <div class="pub-abstract" itemprop="text">
         
-        Several techniques have been developed to make it easier for non-experts to create animations by leveraging a database of existing cartoons. These methods typically require registering a deformable model to each frame in the database, and then using the deformation parameters to infer the subspace of plausible deformations. We address challenges of performing this registration on cartoon data, that usually lacks texture and exhibits strong expressive articulations. We leverage deep neural networks to learn registering a deformable mesh model to images of cartoon characters. Characters are parametrized as deformable 2.5D meshes with a given initial template and a learned per-instance deformation. Layering is used to handle occlusions and moving body parts. Using experiments on various characters, we demonstrate that our model successfully learns to deform the template based on input images. We also show applications of our model such as inbetweening, user-constrained deformation and correspondence estimation.
+        We propose a learning based method for generating new animations of a cartoon character given a few example images. We express pose changes as a deformation of a layered 2.5D template mesh, and devise a novel architecture that learns to predict mesh deformations matching the template to a target image. This enables us to extract a common low-dimensional structure from a diverse set of character poses. In addition to coarse poses, character appearance also varies due to shading, out-of-plane motions, and artistic effects. We capture these subtle changes by applying an image translation network to refine the mesh rendering, providing an end-to-end model to generate new animations of a character with high visual quality. Our generative model can be used to synthesize in-between frames and to create data-driven deformation. Our template fitting procedure outperforms state-of-the-art generic techniques for detecting image correspondences.
         
       </div>
 
@@ -395,6 +401,9 @@
 
 
 
+<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/1910.02060.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
@@ -407,6 +416,11 @@
 
 
 
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1910.02060" target="_blank" rel="noopener">
+  ArXiv
+</a>
 
 
       </div>
@@ -775,7 +789,7 @@
     <ul>
 <li>Research Intern: <strong>Adobe Research</strong> with <a href="http://www.vovakim.com/" target="_blank">Vladimir Kim</a> and <a href="https://techmatt.github.io" target="_blank">Matthew Fisher</a>, Summer 2019 <br />
 <br /></li>
-<li>Research Intern: <strong>Facebook AI</strong> with <a href="https://www.linkedin.com/in/sernam/" target="_blank">SerNam Lim</a>, Fall 2018 <br />
+<li>Research Intern: <strong>Facebook AI</strong> with <a href="https://www.linkedin.com/in/sernam/" target="_blank">SerNam Lim</a>, Fall &amp; Winter 2018 <br />
 <br /></li>
 <li>Research Intern: <strong>Adobe Research</strong> with <a href="http://www.vovakim.com/" target="_blank">Vladimir Kim</a> and <a href="https://research.adobe.com/person/eli-shechtman/" target="_blank">Eli Shechtman</a>, Summer 2018 <br />
 <br /></li>
@@ -805,7 +819,7 @@
     
   </div>
   <div class="col-xs-12 col-md-8">
-    <p>Reviewer for CVPR, ICCV, IEEE TPAMI, IEEE Transactions on Multimedia, IEEE Transactions on Industrial Electronics</p>
+    <p>Reviewer for CVPR, ICCV, AAAI, IEEE TPAMI, IEEE Transactions on Multimedia, IEEE Transactions on Industrial Electronics</p>
 
   </div>
   
@@ -831,10 +845,10 @@
   </div>
   <div class="col-xs-12 col-md-8">
     <ul>
-<li>Object animation using Generative Neural Networks, with Vladimir Kim, Jun Saito and Eli Shectman (pending)
+<li><a href="https://patents.google.com/patent/US20190286950A1/en" target="_blank">Generating a digital image using a generative adversarial network</a>, with Shuai Zheng, Hadi Kiapour and Robinson Piramuthu
 <br />
 <br /></li>
-<li>Generating stock images from street-fashion photos via a stack of Generative Adversarial Neural Networks, with Shuai Zheng, Hadi Kiapour and Robinson Piramuthu (pending)</li>
+<li>Object animation using Generative Neural Networks, with Vladimir Kim, Jun Saito and Eli Shectman (pending)</li>
 </ul>
 
   </div>
