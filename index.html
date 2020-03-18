@@ -370,7 +370,7 @@ You can find my CV <a href="pdf/CV.pdf" target="_blank">here</a>.<br />
 
     <div class="col-md-12">
       <a href="https://omidpoursaeed.github.io/publication/fine-grained-unrestricted/">
-        <img src="/img/faces_2.png" class="pub-banner"
+        <img src="/img/faces2.png" class="pub-banner"
              itemprop="image">
       </a>
     </div>
@@ -384,7 +384,7 @@ You can find my CV <a href="pdf/CV.pdf" target="_blank">here</a>.<br />
 
       <div class="pub-abstract" itemprop="text">
         
-        We propose a novel approach for generating unrestricted adversarial examples by manipulating fine-grained aspects of image generation. Unlike existing unrestricted attacks that typically hand-craft geometric transformations, we learn stylistic and stochastic modifications leveraging state-of-the-art generative models. This allows us to manipulate an image in a controlled, fine-grained manner without being bounded by a norm threshold. We demonstrate that our attacks can bypass certified defenses, yet our adversarial images look indistinguishable from natural images as verified by human evaluation. Adversarial training can be used as an effective defense without degrading performance of the model on clean images. We perform experiments on LSUN and CelebA-HQ as high resolution datasets to validate efficacy of our proposed approach.
+        We propose a novel approach for generating unrestricted adversarial examples by manipulating fine-grained aspects of image generation. Unlike existing unrestricted attacks that typically hand-craft geometric transformations, we learn stylistic and stochastic modifications leveraging state-of-the-art generative models. This allows us to manipulate an image in a controlled, fine-grained manner without being bounded by a norm threshold. We demonstrate that our attacks can bypass certified defenses, yet our adversarial images look indistinguishable from natural images as verified by human evaluation. Adversarial training can be used as an effective defense without degrading performance of the model on clean images.
         
       </div>
 
@@ -446,6 +446,134 @@ You can find my CV <a href="pdf/CV.pdf" target="_blank">here</a>.<br />
     
 
     <div class="col-md-12">
+      <a href="https://omidpoursaeed.github.io/publication/hybrid/">
+        <img src="/img/hybrid.png" class="pub-banner"
+             itemprop="image">
+      </a>
+    </div>
+    <div class="col-md-12">
+
+    
+
+      <h3 class="article-title" itemprop="name">
+        <a href="https://omidpoursaeed.github.io/publication/hybrid/" itemprop="url">Coupling Explicit and Implicit Surface Representations for Generative 3D Modeling</a>
+      </h3>
+
+      <div class="pub-abstract" itemprop="text">
+        
+        We propose a novel neural architecture for representing 3D surfaces by harnessing complementary explicit and implicit shape representations. We make these two representations synergistic by introducing novel consistency losses. Our hybrid architecture outputs results which are superior to the output of the two equivalent single-representation networks, yielding smoother explicit surfaces with more accurate normals, and a more accurate implicit occupancy function. Additionally, our surface reconstruction step can directly leverage the explicit atlas-based representation. This process is computationally efficient, and can be directly used by differentiable rasterizers, enabling training our hybrid representation with image-based losses.
+        
+      </div>
+
+      <div class="pub-authors" itemprop="author">
+        
+        Omid Poursaeed, Vladimir Kim, Matthew Fisher, Noam Aigerman
+        
+      </div>
+
+      <div class="pub-publication">
+        Under Review,&nbsp;2020.
+      </div>
+
+      <div class="pub-links">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="row">
+
+    
+
+    <div class="col-md-12">
+      <a href="https://omidpoursaeed.github.io/publication/few-shot/">
+        <img src="/img/Few_shot.png" class="pub-banner"
+             itemprop="image">
+      </a>
+    </div>
+    <div class="col-md-12">
+
+    
+
+      <h3 class="article-title" itemprop="name">
+        <a href="https://omidpoursaeed.github.io/publication/few-shot/" itemprop="url">Interpolative AutoEncoders for Unsupervised Few-Shot Image Generation</a>
+      </h3>
+
+      <div class="pub-abstract" itemprop="text">
+        
+        We aim to build image generation models that generalize to new classes from few examples. To this end, we first investigate the generalization properties of classic image generators, and leverage this insight to produce a robust, unsupervised few-shot image generation algorithm using a novel training procedure. The resulting interpolative autoencoders synthesize realistic images of novel objects from only a few reference images, and are competitive with VAEs trained directly on the full set of novel classes. Our procedure is simple and lightweight, generalizes broadly, and requires no category labels or other supervision during training.
+        
+      </div>
+
+      <div class="pub-authors" itemprop="author">
+        
+        Davis Wertheimer, Omid Poursaeed, Yordanos Goshu, Bharath Hariharan
+        
+      </div>
+
+      <div class="pub-publication">
+        Under Review,&nbsp;2020.
+      </div>
+
+      <div class="pub-links">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="row">
+
+    
+
+    <div class="col-md-12">
       <a href="https://omidpoursaeed.github.io/publication/generative-neural-networks-for-2.5d-character-animation/">
         <img src="/img/Neural_Puppet.png" class="pub-banner"
              itemprop="image">
@@ -461,7 +589,7 @@ You can find my CV <a href="pdf/CV.pdf" target="_blank">here</a>.<br />
 
       <div class="pub-abstract" itemprop="text">
         
-        We propose a learning based method for generating new animations of a cartoon character given a few example images. We express pose changes as a deformation of a layered 2.5D template mesh, and devise a novel architecture that learns to predict mesh deformations matching the template to a target image. This enables us to extract a common low-dimensional structure from a diverse set of character poses. In addition to coarse poses, character appearance also varies due to shading, out-of-plane motions, and artistic effects. We capture these subtle changes by applying an image translation network to refine the mesh rendering, providing an end-to-end model to generate new animations of a character with high visual quality. Our generative model can be used to synthesize in-between frames and to create data-driven deformation. Our template fitting procedure outperforms state-of-the-art generic techniques for detecting image correspondences.
+        We propose a learning based method for generating new animations of a cartoon character given a few example images. We express pose changes as a deformation of a layered 2.5D template mesh, and devise a novel architecture that learns to predict mesh deformations matching the template to a target image. In addition to coarse poses, character appearance also varies due to shading, out-of-plane motions, and artistic effects. We capture these subtle changes by applying an image translation network to refine the mesh rendering. Our generative model can be used to synthesize in-between frames and to create data-driven deformation. Our template fitting procedure outperforms state-of-the-art generic techniques for detecting image correspondences.
         
       </div>
 
@@ -498,6 +626,10 @@ You can find my CV <a href="pdf/CV.pdf" target="_blank">here</a>.<br />
 
 
 
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://omidpoursaeed.github.io/pdf/Neural_Puppet_Poster.pdf" target="_blank" rel="noopener">
+  Poster
+</a>
 
 
 
@@ -538,7 +670,7 @@ You can find my CV <a href="pdf/CV.pdf" target="_blank">here</a>.<br />
 
       <div class="pub-abstract" itemprop="text">
         
-        Differential privacy (DP) is a popular mechanism for training machine learning models with bounded leakage about the presence of specific points in the training data. The cost of differential privacy is a reduction in the model’s accuracy. We demonstrate that in the neural networks trained using differentially private stochastic gradient descent (DP-SGD), this cost is not borne equally: accuracy of DP models drops much more for the underrepresented classes and subgroups. Critically, this gap is bigger in the DP model than in the non-DP model. We demonstrate this effect for a variety of tasks and models, including sentiment analysis of text and image classification. We then explain why DP training mechanisms such as gradient clipping and noise addition have disproportionate effect on the underrepresented and more complex subgroups, resulting in a disparate reduction of model accuracy.
+        Differential privacy (DP) is a popular mechanism for training machine learning models with bounded leakage about the presence of specific points in the training data. The cost of differential privacy is a reduction in the model’s accuracy. We demonstrate that in the neural networks trained using differentially private stochastic gradient descent (DP-SGD), this cost is not borne equally: accuracy of DP models drops much more for the underrepresented classes and subgroups. We demonstrate this effect for a variety of tasks and models, including sentiment analysis of text and image classification. We then explain why DP training mechanisms such as gradient clipping and noise addition have disproportionate effect on the underrepresented and more complex subgroups.
         
       </div>
 
@@ -615,7 +747,7 @@ You can find my CV <a href="pdf/CV.pdf" target="_blank">here</a>.<br />
 
       <div class="pub-abstract" itemprop="text">
         
-        In this paper, we propose novel generative models for creating adversarial examples, slightly perturbed images resembling natural images but maliciously crafted to fool pre-trained models. We present trainable deep neural networks for transforming images to adversarial perturbations. Our proposed models can produce image-agnostic and image-dependent perturbations for both targeted and non-targeted attacks. We also demonstrate that similar architectures can achieve impressive results in fooling both classification and semantic segmentation models, obviating the need for hand-crafting attack methods for each task. We improve the state-of-the-art performance in universal perturbations by leveraging generative models in lieu of current iterative methods. Moreover, we are the first to present effective targeted universal perturbations. Our attacks are considerably faster than iterative and optimization-based methods at inference time. We can generate perturbations in the order of milliseconds.
+        We propose novel generative models for creating adversarial examples, slightly perturbed images resembling natural images but maliciously crafted to fool trained models. Our approach can produce image-agnostic and image-dependent perturbations for both targeted and non-targeted attacks. We also demonstrate that similar architectures can achieve impressive results in fooling both classification and semantic segmentation models, obviating the need for hand-crafting attack methods for each task. We improve the state-of-the-art performance in universal perturbations by leveraging generative models in lieu of current iterative methods. Our attacks are considerably faster than iterative and optimization-based methods at inference time. Moreover, we are the first to present effective targeted universal perturbations.
         
       </div>
 
@@ -700,7 +832,7 @@ You can find my CV <a href="pdf/CV.pdf" target="_blank">here</a>.<br />
 
       <div class="pub-abstract" itemprop="text">
         
-        Estimating fundamental matrices is a classic problem in computer vision. Traditional methods rely heavily on the correctness of estimated key-point correspondences, which can be noisy and unreliable. As a result, it is difficult for these methods to handle image pairs with large occlusion or significantly different camera poses. In this paper, we propose novel neural network architectures to estimate fundamental matrices in an end-to-end manner without relying on point correspondences. New modules and layers are introduced in order to preserve mathematical properties of the fundamental matrix as a homogeneous rank-2 matrix with seven degrees of freedom. We analyze performance of the proposed models using various metrics on the KITTI dataset, and show that they achieve competitive performance with traditional methods without the need for extracting correspondences.
+        Estimating fundamental matrices is a classic problem in computer vision. Traditional methods rely heavily on the correctness of estimated key-point correspondences, which can be noisy and unreliable. As a result, it is difficult for these methods to handle image pairs with large occlusion or significantly different camera poses. In this paper, we propose novel neural network architectures to estimate fundamental matrices in an end-to-end manner without relying on point correspondences. New modules and layers are introduced in order to preserve mathematical properties of the fundamental matrix as a homogeneous rank-2 matrix with seven degrees of freedom. We analyze performance of the proposed model on the KITTI dataset, and show that they achieve competitive performance with traditional methods without the need for extracting correspondences.
         
       </div>
 
@@ -785,7 +917,7 @@ You can find my CV <a href="pdf/CV.pdf" target="_blank">here</a>.<br />
 
       <div class="pub-abstract" itemprop="text">
         
-        We propose a novel generative model named Stacked Generative Adversarial Networks (SGAN), which is trained to invert the hierarchical representations of a bottom-up discriminative network. Our model consists of a top-down stack of GANs, each learned to generate lower-level representations conditioned on higher-level representations. A representation discriminator is introduced at each feature hierarchy to encourage the representation manifold of the generator to align with that of the bottom-up discriminative network, leveraging the powerful discriminative representations to guide the generative model. Unlike the original GAN that uses a single noise vector to represent all the variations, our SGAN decomposes variations into multiple levels and gradually resolves uncertainties in the top-down generative process. Based on visual inspection, Inception scores and visual Turing test, we demonstrate that SGAN is able to generate images of much higher quality than GANs without stacking.
+        We propose a novel generative model which is trained to invert the hierarchical representations of a bottom-up discriminative network. Our model consists of a top-down stack of GANs, each learned to generate lower-level representations conditioned on higher-level representations. A representation discriminator is introduced at each feature hierarchy to encourage the representation manifold of the generator to align with that of the bottom-up discriminative network. Unlike the original GAN that uses a single noise vector to represent all the variations, our SGAN decomposes variations into multiple levels and gradually resolves uncertainties in the top-down generative process. Based on visual inspection, Inception scores and visual Turing test, we demonstrate that SGAN is able to generate images of much higher quality than GANs without stacking.
         
       </div>
 
@@ -866,7 +998,7 @@ You can find my CV <a href="pdf/CV.pdf" target="_blank">here</a>.<br />
 
       <div class="pub-abstract" itemprop="text">
         
-        Several online real estate database companies provide automatic estimation of market values for houses using a proprietary formula. Although these estimates are often close to the actual sale prices, in some cases they are highly inaccurate. One of the key factors that affects the value of a house is its interior and exterior appearance, which is not considered in calculating these estimates. In this paper, we evaluate the impact of visual characteristics of a house on its market value. Using deep convolutional neural networks on a large dataset of photos of home interiors and exteriors, we develop a method for estimating the luxury level of real estate photos. We also develop a novel framework for automated value assessment using the above photos in addition to home characteristics including size, offered price and number of bedrooms. Finally, by applying our proposed method for price estimation to a new dataset of real estate photos and metadata, we show that it outperforms Zillow&rsquo;s estimates.
+        Several online real estate database companies provide automatic estimation of market values for houses using a proprietary formula. Although these estimates are often close to the actual sale prices, in some cases they are highly inaccurate. One of the key factors that affects the value of a house is its interior and exterior appearance, which is not considered in calculating these estimates. In this paper, we evaluate the impact of visual characteristics of a house on its market value. Using deep convolutional neural networks on a large dataset of photos of home interiors and exteriors, we develop a novel framework for automated value assessment using these photos in addition to other home characteristics. By applying our proposed method for price estimation to a new dataset of real estate photos and metadata, we show that it outperforms Zillow&rsquo;s estimates.
         
       </div>
 
@@ -1012,7 +1144,10 @@ Program Committee Member for AAAI and CVPR Workshop on Adversarial Machine Learn
 <li><a href="https://patents.google.com/patent/US20190286950A1/en" target="_blank">Generating a digital image using a generative adversarial network</a>, with Shuai Zheng, Hadi Kiapour and Robinson Piramuthu
 <br />
 <br /></li>
-<li>Object animation using Generative Neural Networks, with Vladimir Kim, Jun Saito and Eli Shectman (pending)</li>
+<li>Object animation using Generative Neural Networks (pending), with Vladimir Kim, Jun Saito and Eli Shechtman
+<br />
+<br /></li>
+<li>Learning Hybrid Shape Representations (pending), with Vladimir Kim, Matthew Fisher and Noam Aigerman</li>
 </ul>
 
   </div>
