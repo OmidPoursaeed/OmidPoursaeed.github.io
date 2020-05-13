@@ -11,20 +11,20 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Coupling Explicit and Implicit Surface Representations for Generative 3D Modeling</title>
+      <link>https://omidpoursaeed.github.io/publication/hybrid/</link>
+      <pubDate>Thu, 02 Apr 2020 02:01:33 -0500</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/publication/hybrid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Fine-grained Synthesis of Unrestricted Adversarial Examples</title>
       <link>https://omidpoursaeed.github.io/publication/fine-grained-unrestricted/</link>
       <pubDate>Fri, 03 Jan 2020 02:01:33 -0500</pubDate>
       
       <guid>https://omidpoursaeed.github.io/publication/fine-grained-unrestricted/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Coupling Explicit and Implicit Surface Representations for Generative 3D Modeling</title>
-      <link>https://omidpoursaeed.github.io/publication/hybrid/</link>
-      <pubDate>Thu, 02 Jan 2020 02:01:33 -0500</pubDate>
-      
-      <guid>https://omidpoursaeed.github.io/publication/hybrid/</guid>
       <description></description>
     </item>
     
