@@ -57,7 +57,7 @@ p {
 
 /* Lists */
 ul, ol, dl {
-  max-width: 97% !important;
+  #max-width: 97% !important;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -72,7 +72,7 @@ ul, ol, dl {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  max-width: 97% !important;
+  #max-width: 97% !important;
   font-family: '{{ .Get "heading_font" }}', sans-serif;
   font-weight: 200;
   margin-bottom: .5rem;
@@ -168,7 +168,7 @@ hr {
 
 /* Quotes */
 blockquote {
-  max-width: 97% !important;
+  #max-width: 97% !important;
   padding: .5rem 1rem;
   margin: .8rem 0;
   color: #7a7a7a;
@@ -263,7 +263,7 @@ small,
 
 @media screen and (max-width: 768px) {
   .home-section {
-    max-width: 98% !important;
+    #max-width: 98% !important;
     padding: 60px 0 60px 0;
   }
   .home-section:first-of-type {
@@ -333,7 +333,7 @@ small,
  **************************************************/
 
 #profile {
-  max-width: 98% !important;
+  #max-width: 98% !important;
   text-align: center;
   padding: 30px 10px;
   position: relative;
@@ -472,7 +472,7 @@ article {
 }
 
 .article-container {
-  max-width: 90% !important; #760px
+  #max-width: 90% !important; #760px
   height: auto !important;
   #padding: 1rem 20px 0 20px;
   padding: 1rem 40px 0 40px;
@@ -485,7 +485,7 @@ article {
 }
 
 .article-banner {
-  width: 70% !important; #100%
+  width: 100% !important; #70%
   height: auto !important;
 }
 
@@ -619,13 +619,14 @@ article {
 }
 
 .pub-banner {
-  max-width: 96% !important; #100%;
+  max-width: 97% !important; #100%;
   height: auto !important;
   margin-left: auto;
   margin-right: auto;
 }
 
 .pub .pub-title {
+  max-width: 97% !important;
   margin-bottom: 5px;
 }
 
@@ -663,12 +664,11 @@ article {
 }
 
 .pub-list-item .pub-links {
-  max-width: 90% !important;
+  #max-width: 90% !important;
   padding-top: 10px;
 }
 
 container-publications {
-  max-width: 90% !important;
   display: block;
   position: relative;
   overflow: hidden;
