@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 2.25rem;
+  font-size: 2.15rem;
 }
 h2 {
   margin-top: 1rem;
@@ -246,10 +246,8 @@ small,
 .home-section {
   max-width: 98% !important;
   background-color: {{ .Get "home_section_odd" }};
-  padding: 110px 0 110px 0;
-  #animation: intro 0.3s both;
+  padding: 90px 0 90px 0;
   animation: intro 0.0s both;
-  #animation-delay: 0.15s;
   animation-delay: 0.0s;
 }
 
@@ -292,9 +290,8 @@ small,
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  animation: intro 0.3s both;
+  animation: intro 0.0s both;
   animation-delay: 0s;
-  animation-delay: 0.25s;
 }
 
 .hero-title {
@@ -467,15 +464,15 @@ ul.share li:hover .fa {
  **************************************************/
 
 article {
-  animation: intro 0.3s both;
-  animation-delay: 0.15s;
+  animation: intro 0.0s both;
+  animation-delay: 0.0s;
 }
 
 .article-container {
   #max-width: 90% !important; #760px
   height: auto !important;
-  #padding: 1rem 20px 0 20px;
-  padding: 1rem 40px 0 40px;
+  padding: 1rem 20px 0 20px;
+  #padding: 1rem 40px 0 40px;
   margin: 0 auto 0 auto;
 }
 
@@ -515,7 +512,8 @@ article {
 }
 
 .article-title {
-  font-size: 1.75rem;
+  font-size: 1.58rem;
+  max-width: 95% !important;
 }
 
 .article-title a {
@@ -614,20 +612,23 @@ article {
 
 .pub-icon {
   color: rgba(0, 0, 0, 0.54);
-  font-size: 0.81em;
+  font-size: 0.61em !important; #0.81em;
   padding-top: 6px;
+  font-size: 1rem;
 }
 
 .pub-banner {
-  max-width: 97% !important; #100%;
+  max-width: 95% !important; #100%;
   height: auto !important;
   margin-left: auto;
   margin-right: auto;
+  font-size: 1rem;
 }
 
 .pub .pub-title {
-  max-width: 97% !important;
+  max-width: 95% !important;
   margin-bottom: 5px;
+  font-size: 1rem;
 }
 
 .pub .pub-authors {
@@ -636,31 +637,34 @@ article {
 }
 
 .pub .pub-row-heading {
-  max-width: 97% !important;
+  max-width: 95% !important;
   font-weight: bold;
 }
 
 .pub-list-item {
-  max-width: 97% !important;
+  max-width: 95% !important;
   margin-bottom: 40px;
 }
 
 .pub-list-item .pub-abstract {
-  max-width: 97% !important;
+  max-width: 95% !important;
+  padding-top: 5px;
   font-size: 1rem;
 }
 
 .pub-list-item .pub-authors {
   line-height: normal;
   font-style: normal;
-  font-size: 1rem;
+  padding-top: 9px;
+  font-size: 1.1rem;
   color: #3170A5;
 }
 
 .pub-list-item .pub-publication {
-  max-width: 97% !important;
+  max-width: 95% !important;
   color: #090;
-  font-size: 1rem;
+  padding-top: 5px;
+  font-size: 1.1rem; #1rem;
 }
 
 .pub-list-item .pub-links {
@@ -840,7 +844,6 @@ container-publications {
 }
 
 #contact.home-section li {
-  #padding-top: 0.8rem; /* Align text with bottom of `fa-2x` icon. */
   padding-top: 0.5rem; /* Align text with bottom of `fa-2x` icon. */
   margin-bottom: 0.2rem; #0.3rem;
 }
