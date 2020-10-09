@@ -42,15 +42,6 @@
     </item>
     
     <item>
-      <title>Recent &amp; Upcoming Talks</title>
-      <link>https://omidpoursaeed.github.io/home/talks/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://omidpoursaeed.github.io/home/talks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Recent Posts</title>
       <link>https://omidpoursaeed.github.io/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
@@ -75,6 +66,15 @@
       
       <guid>https://omidpoursaeed.github.io/home/experience/</guid>
       <description> Research Intern: Adobe Research with Vladimir Kim and Matthew Fisher, Summer 2019  Research Intern: Facebook AI with SerNam Lim, Fall &amp;amp; Winter 2019  Research Intern: Adobe Research with Vladimir Kim and Eli Shechtman, Summer 2018  Research Intern: eBay Research with Shuai Zheng, Hadi Kiapour and Robinson Piramuthu, Summer 2017  </description>
+    </item>
+    
+    <item>
+      <title>Presentations</title>
+      <link>https://omidpoursaeed.github.io/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/home/talks/</guid>
+      <description> DeepFakes and Adversarial Examples: Fooling Humans and Machines: Digital Life Seminar Series  </description>
     </item>
     
     <item>
