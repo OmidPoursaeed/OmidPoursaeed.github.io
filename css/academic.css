@@ -109,7 +109,7 @@ a:focus {
 img,
 video {
   height: auto;
-  max-width: 95%; #200px;
+  max-width: 100%; #200px;
   display: inline-block;
 }
 
@@ -462,7 +462,7 @@ article {
 }
 
 .article-container {
-  max-width: 760px;
+  max-width: 700px;
   padding: 1rem 20px 0 20px;
   margin: 0 auto 0 auto;
 }
