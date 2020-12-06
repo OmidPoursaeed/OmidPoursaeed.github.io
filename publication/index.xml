@@ -13,9 +13,72 @@
     
     
     <item>
+      <title>Coupling Explicit and Implicit Surface Representations for Generative 3D Modeling</title>
+      <link>https://omidpoursaeed.github.io/publication/hybrid/</link>
+      <pubDate>Thu, 02 Jul 2020 02:01:33 -0500</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/publication/hybrid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-supervised Learning of Point Clouds via Orientation Estimation</title>
+      <link>https://omidpoursaeed.github.io/publication/self-supervised/</link>
+      <pubDate>Tue, 02 Jun 2020 02:01:33 -0500</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/publication/self-supervised/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fine-grained Generation of Unrestricted Adversarial Examples</title>
+      <link>https://omidpoursaeed.github.io/publication/fine-grained-unrestricted/</link>
+      <pubDate>Fri, 03 Jan 2020 02:01:33 -0500</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/publication/fine-grained-unrestricted/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interpolative AutoEncoders for Unsupervised Few-Shot Image Generation</title>
+      <link>https://omidpoursaeed.github.io/publication/few-shot/</link>
+      <pubDate>Thu, 02 Jan 2020 02:01:33 -0500</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/publication/few-shot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neural Puppet: Generative Layered Cartoon Characters</title>
+      <link>https://omidpoursaeed.github.io/publication/generative-neural-networks-for-2.5d-character-animation/</link>
+      <pubDate>Sat, 03 Aug 2019 02:01:33 -0500</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/publication/generative-neural-networks-for-2.5d-character-animation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Differential Privacy has Disparate Impact on Model Accuracy</title>
+      <link>https://omidpoursaeed.github.io/publication/differential-privacy/</link>
+      <pubDate>Wed, 03 Jul 2019 02:00:59 -0500</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/publication/differential-privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Fundamental Matrix Estimation without Correspondences</title>
+      <link>https://omidpoursaeed.github.io/publication/deep-fundamental-matrix-estimation-without-correspondences/</link>
+      <pubDate>Mon, 01 Oct 2018 01:03:57 -0500</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/publication/deep-fundamental-matrix-estimation-without-correspondences/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Generative Adversarial Perturbations</title>
       <link>https://omidpoursaeed.github.io/publication/generative-adversarial-perturbations/</link>
-      <pubDate>Mon, 01 Jan 2018 01:03:57 -0500</pubDate>
+      <pubDate>Fri, 01 Jun 2018 01:03:57 -0500</pubDate>
       
       <guid>https://omidpoursaeed.github.io/publication/generative-adversarial-perturbations/</guid>
       <description></description>

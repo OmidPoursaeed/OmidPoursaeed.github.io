@@ -109,7 +109,7 @@ a:focus {
 img,
 video {
   height: auto;
-  max-width: 100px; #500px;
+  max-width: 200px; #500px;
   display: block;
 }
 
@@ -636,7 +636,7 @@ article {
 .pub-list-item .pub-authors {
   line-height: normal;
   font-style: normal;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #3170A5;
 }
 

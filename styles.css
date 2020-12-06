@@ -26,13 +26,13 @@
 
 html {
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   color: rgba(0,0,0,0.8);
   line-height: 1.65;
 }
 @media screen and (min-width: 58em) {
   html {
-    font-size: 19px;
+    font-size: 15.5px;
   }
 }
 
@@ -466,7 +466,7 @@ article {
 }
 
 .article-container {
-  max-width: 760px;
+  max-width: 700px;
   padding: 1rem 20px 0 20px;
   margin: 0 auto 0 auto;
 }
@@ -819,7 +819,7 @@ article {
 #contact.home-section .fa-li {
   position: absolute;
   left: -3.14285714rem; /* Negative of `#contact.home-section .fa-ul` margin. */
-  width: 2rem; /* Match `fa-2x` icon size. */
+  width: 1rem; /* Match `fa-2x` icon size. */
   top: 0.14285714em; /* Default FA value. */
   text-align: center;
 }
@@ -998,7 +998,7 @@ footer a#back_to_top i {
 }
 
 nav#navbar-main li {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .navbar-default .navbar-nav>li>a,

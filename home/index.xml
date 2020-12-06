@@ -18,7 +18,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://omidpoursaeed.github.io/home/about/</guid>
-      <description> About I am a PhD student at Cornell University and Cornell Tech working with Professor Serge Belongie. My research interests include Computer Vision and Machine Learning with focus on Deep Learning and Generative Models. I received my B.S. (with honor) from Sharif University of Technology in 2015. I am also a recipient of Jacobs Fellowship from Cornell University.
+      <description> About I am a PhD candidate at Cornell University and Cornell Tech working with Serge Belongie. My research interests are in Computer Vision, Generative Models and 3D Deep Learning. I am a recipient of Jacobs Fellowship from Cornell University and DLI Doctoral Fellowship from Cornell Tech.   You can find my CV here.
    </description>
     </item>
     
@@ -37,15 +37,6 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>https://omidpoursaeed.github.io/home/publications/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recent &amp; Upcoming Talks</title>
-      <link>https://omidpoursaeed.github.io/home/talks/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://omidpoursaeed.github.io/home/talks/</guid>
       <description></description>
     </item>
     
@@ -73,7 +64,28 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://omidpoursaeed.github.io/home/experience/</guid>
-      <description> Research Intern: Adobe Research, Summer 2018  Research Intern: eBay Research, Summer 2017 Generative Modeling of street-fashion imagery: Designed a model to effectively generate stock quality images from street-fashion photos using Generative Adversarial Networks (patent pending).  </description>
+      <description> Research Intern: Adobe Research with Vladimir Kim and Matthew Fisher, Summer 2019  Research Intern: Facebook AI with SerNam Lim, Fall &amp;amp; Winter 2019  Research Intern: Adobe Research with Vladimir Kim and Eli Shechtman, Summer 2018  Research Intern: eBay Research with Shuai Zheng, Hadi Kiapour and Robinson Piramuthu, Summer 2017  </description>
+    </item>
+    
+    <item>
+      <title>Presentations</title>
+      <link>https://omidpoursaeed.github.io/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/home/talks/</guid>
+      <description> Learning to Generate and Animate for Augmented Reality: Invited talk at Facebook Reality Labs
+ Hybrid Generative Models for 2D and 3D Computer Vision: Invited talk at Apple &amp;amp; Snapchat
+ DeepFakes and Adversarial Examples: Fooling Humans and Machines: Digital Life Seminar Series
+  </description>
+    </item>
+    
+    <item>
+      <title>Service</title>
+      <link>https://omidpoursaeed.github.io/home/professional_service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/home/professional_service/</guid>
+      <description>Reviewer for CVPR, NeurIPS, ICCV, ECCV, ICLR, AAAI, IEEE TPAMI, IEEE Transactions on Multimedia, ACM Transactions on Privacy and Security, IEEE Transactions on Industrial Electronics Program Committee Member for CVPR Workshop on Adversarial Machine Learning</description>
     </item>
     
     <item>
@@ -83,6 +95,15 @@
       
       <guid>https://omidpoursaeed.github.io/home/tags/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Patents</title>
+      <link>https://omidpoursaeed.github.io/home/patents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/home/patents/</guid>
+      <description> Generating a digital image using a generative adversarial network, with Shuai Zheng, Hadi Kiapour and Robinson Piramuthu  Object animation using Generative Neural Networks, with Vladimir Kim, Jun Saito and Eli Shechtman  Learning Hybrid Shape Representations (pending), with Vladimir Kim, Matthew Fisher and Noam Aigerman  </description>
     </item>
     
     <item>
