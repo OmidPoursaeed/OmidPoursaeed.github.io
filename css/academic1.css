@@ -33,9 +33,9 @@ html {
 }
 
 body {
-  max-width: 98% !important;
+  max-width: 95% !important;
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 1.05rem;
   line-height: inherit;
   color: inherit;
   margin-top: 71px; /* Offset body content by navbar height. */
@@ -50,14 +50,14 @@ body {
 
 /* Body text */
 p {
-  max-width: 97% !important;
+  max-width: 95% !important;
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
 /* Lists */
 ul, ol, dl {
-  max-width: 97% !important;
+  max-width: 95% !important;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -113,7 +113,7 @@ a:focus {
 img,
 video {
   height: auto;
-  max-width: 97%; #200px;
+  max-width: 95%; #200px;
   display: inline-block;
 }
 
@@ -244,7 +244,7 @@ small,
 }
 
 .home-section {
-  max-width: 98% !important;
+  max-width: 97% !important;
   background-color: {{ .Get "home_section_odd" }};
   padding: 90px 0 90px 0;
   animation: intro 0.0s both;
@@ -330,7 +330,7 @@ small,
  **************************************************/
 
 #profile {
-  #max-width: 98% !important;
+  #max-width: 95% !important;
   text-align: center;
   padding: 30px 10px;
   position: relative;
@@ -338,15 +338,15 @@ small,
 
 #profile .portrait {
   background-image: url('../img/portrait.jpg');
-  width: 230px !important; #250px;
-  height: 230px !important; #250px;
+  width: 210px !important; #250px;
+  height: 210px !important; #250px;
   margin: 0 auto;
   border-radius: 50%;
   background-size: cover;
 }
 
 #profile .portrait-title h2 {
-  font-size: 1.75em;
+  font-size: 1.6em;
   font-weight: 300;
   color: #000000;
   margin: 20px 0 10px 0;
@@ -365,7 +365,7 @@ small,
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
-  margin-top: 15px !important; #30px;
+  margin-top: 5px !important; #30px;
 }
 
 #profile .network-icon li {
@@ -619,17 +619,17 @@ article {
 }
 
 .pub-banner {
-  max-width: 95% !important; #100%;
+  max-width: 90% !important; #100%;
   height: auto !important;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .pub .pub-title {
-  max-width: 95% !important;
+  max-width: 90% !important;
   margin-bottom: 5px;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .pub .pub-authors {
@@ -638,19 +638,19 @@ article {
 }
 
 .pub .pub-row-heading {
-  max-width: 95% !important;
+  max-width: 90% !important;
   font-weight: bold;
 }
 
 .pub-list-item {
-  max-width: 95% !important;
+  max-width: 90% !important;
   margin-bottom: 40px;
 }
 
 .pub-list-item .pub-abstract {
-  max-width: 95% !important;
+  max-width: 90% !important;
   padding-top: 5px;
-  font-size: 1rem;
+  font-size: 1.0rem;
 }
 
 .pub-list-item .pub-authors {
@@ -662,7 +662,7 @@ article {
 }
 
 .pub-list-item .pub-publication {
-  max-width: 95% !important;
+  max-width: 90% !important;
   color: #090;
   padding-top: 5px;
   font-size: 1.1rem; #1rem;
