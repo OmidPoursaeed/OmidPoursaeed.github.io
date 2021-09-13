@@ -20,6 +20,9 @@
   display: table;
 }
 
+br {
+    line-height: 5px;
+}
 html {
   font-family: '{{ .Get "body_font" }}', sans-serif;
   font-size: {{ .Get "font_size_small" }}px;
@@ -33,12 +36,12 @@ html {
 }
 
 body {
-  max-width: 95% !important;
+  max-width: 100% !important;
   font-family: inherit;
   font-size: 1.05rem;
   line-height: inherit;
   color: inherit;
-  margin-top: 71px; /* Offset body content by navbar height. */
+  margin-top: 80px; /* Offset body content by navbar height. */
   padding-top: 0;
   counter-reset: captions;
 }
@@ -50,7 +53,7 @@ body {
 
 /* Body text */
 p {
-  max-width: 95% !important;
+  max-width: 90% !important;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -81,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 2.15rem;
+  font-size: 1.95rem;
 }
 h2 {
   margin-top: 1rem;
@@ -90,7 +93,7 @@ h2 {
 h3 {
   font-weight: 700;
   margin-top: 1.5rem;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 h4, h5, h6 {
   font-weight: 700;
@@ -113,7 +116,7 @@ a:focus {
 img,
 video {
   height: auto;
-  max-width: 95%; #200px;
+  max-width: 98%; #200px;
   display: inline-block;
 }
 
@@ -244,15 +247,15 @@ small,
 }
 
 .home-section {
-  max-width: 97% !important;
+  max-width: 100% !important;
   background-color: {{ .Get "home_section_odd" }};
-  padding: 90px 0 90px 0;
+  padding: 70px 0 60px 0;
   animation: intro 0.0s both;
   animation-delay: 0.0s;
 }
 
 .home-section:first-of-type {
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .home-section:nth-of-type(even) {
@@ -261,7 +264,7 @@ small,
 
 @media screen and (max-width: 768px) {
   .home-section {
-    #max-width: 98% !important;
+    #max-width: 90% !important;
     padding: 60px 0 60px 0;
   }
   .home-section:first-of-type {
@@ -330,7 +333,7 @@ small,
  **************************************************/
 
 #profile {
-  #max-width: 95% !important;
+  #max-width: 90% !important;
   text-align: center;
   padding: 30px 10px;
   position: relative;
@@ -338,22 +341,22 @@ small,
 
 #profile .portrait {
   background-image: url('../img/portrait.jpg');
-  width: 210px !important; #250px;
-  height: 210px !important; #250px;
-  margin: 0 auto;
+  width: 215px !important; #250px;
+  height: 215px !important; #250px;
+  margin: 10 auto;
   border-radius: 50%;
   background-size: cover;
 }
 
 #profile .portrait-title h2 {
-  font-size: 1.6em;
+  font-size: 1.5em;
   font-weight: 300;
   color: #000000;
-  margin: 20px 0 10px 0;
+  margin: 24px 0 12px 0;
 }
 
 #profile .portrait-title h3 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 300;
   color: rgba(0,0,0, 0.54);
   margin: 0px 0 10px 0;
@@ -482,7 +485,7 @@ article {
 }
 
 .article-banner {
-  width: 100% !important; #70%
+  width: 80% !important; #70%
   height: auto !important;
 }
 
@@ -512,8 +515,8 @@ article {
 }
 
 .article-title {
-  font-size: 1.58rem;
-  max-width: 95% !important;
+  font-size: 1.48rem;
+  max-width: 90% !important;
 }
 
 .article-title a {
@@ -567,7 +570,7 @@ article {
   margin-left: auto;
   margin-right: auto;
   margin-top: 60px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   padding-left: 0;
   padding-right: 0;
   display: inline-block;
@@ -619,17 +622,17 @@ article {
 }
 
 .pub-banner {
-  max-width: 90% !important; #100%;
+  max-width: 89% !important; #100%;
   height: auto !important;
   margin-left: auto;
   margin-right: auto;
-  font-size: 0.9rem;
+  font-size: 0.6rem;
 }
 
 .pub .pub-title {
-  max-width: 90% !important;
+  max-width: 60% !important;
   margin-bottom: 5px;
-  font-size: 0.9rem;
+  font-size: 1.15rem;
 }
 
 .pub .pub-authors {
@@ -638,7 +641,7 @@ article {
 }
 
 .pub .pub-row-heading {
-  max-width: 90% !important;
+  max-width: 89% !important;
   font-weight: bold;
 }
 
@@ -650,14 +653,15 @@ article {
 .pub-list-item .pub-abstract {
   max-width: 90% !important;
   padding-top: 5px;
-  font-size: 1.0rem;
+  font-size: 0.97rem;
 }
 
 .pub-list-item .pub-authors {
   line-height: normal;
   font-style: normal;
-  padding-top: 9px;
-  font-size: 1.1rem;
+  max-width: 90% !important;
+  padding-top: 11px;
+  font-size: 1.03rem;
   color: #3170A5;
 }
 
@@ -665,13 +669,13 @@ article {
   max-width: 90% !important;
   color: #090;
   padding-top: 5px;
-  font-size: 1.1rem; #1rem;
+  font-size: 1.0rem; #1rem;
 }
 
 .pub-list-item .pub-links {
   #max-width: 90% !important;
-  padding-top: 10px;
-}
+  padding-top: 9px;
+} 
 
 container-publications {
   display: block;
@@ -805,7 +809,7 @@ container-publications {
   position: absolute;
   left: 0;
   top: 50%;
-  width: 100%;
+  width: 50%;
   transform: translate(0, -50%);
   opacity: 0;
   transition: all 0.2s ease-out;
