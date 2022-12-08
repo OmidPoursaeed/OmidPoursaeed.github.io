@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Omid Poursaeed on Omid Poursaeed</title>
+    <link>https://omidpoursaeed.github.io/</link>
+    <description>Recent content in Omid Poursaeed on Omid Poursaeed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Omid Poursaeed</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A Unified Model for Tracking and Image-Video Detection</title>
+      <link>https://omidpoursaeed.github.io/publication/unified-detection-tracking/</link>
+      <pubDate>Sun, 02 Oct 2022 02:01:33 -0500</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/publication/unified-detection-tracking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Vocabulary Semantic Segmentation with Patch Aligned Contrastive Learning</title>
+      <link>https://omidpoursaeed.github.io/publication/pacl/</link>
+      <pubDate>Fri, 02 Sep 2022 02:01:33 -0500</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/publication/pacl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robustness and Generalization via Generative Adversarial Training</title>
+      <link>https://omidpoursaeed.github.io/publication/fine-grained-unrestricted/</link>
+      <pubDate>Wed, 03 Mar 2021 02:01:33 -0500</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/publication/fine-grained-unrestricted/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coupling Explicit and Implicit Surface Representations for Generative 3D Modeling</title>
+      <link>https://omidpoursaeed.github.io/publication/hybrid/</link>
+      <pubDate>Thu, 02 Jul 2020 02:01:33 -0500</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/publication/hybrid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-supervised Learning of Point Clouds via Orientation Estimation</title>
+      <link>https://omidpoursaeed.github.io/publication/self-supervised/</link>
+      <pubDate>Tue, 02 Jun 2020 02:01:33 -0500</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/publication/self-supervised/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interpolative AutoEncoders for Unsupervised Few-Shot Image Generation</title>
+      <link>https://omidpoursaeed.github.io/publication/few-shot/</link>
+      <pubDate>Thu, 02 Jan 2020 02:01:33 -0500</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/publication/few-shot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neural Puppet: Generative Layered Cartoon Characters</title>
+      <link>https://omidpoursaeed.github.io/publication/generative-neural-networks-for-2.5d-character-animation/</link>
+      <pubDate>Sat, 03 Aug 2019 02:01:33 -0500</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/publication/generative-neural-networks-for-2.5d-character-animation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Differential Privacy has Disparate Impact on Model Accuracy</title>
+      <link>https://omidpoursaeed.github.io/publication/differential-privacy/</link>
+      <pubDate>Wed, 03 Jul 2019 02:00:59 -0500</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/publication/differential-privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Fundamental Matrix Estimation without Correspondences</title>
+      <link>https://omidpoursaeed.github.io/publication/deep-fundamental-matrix-estimation-without-correspondences/</link>
+      <pubDate>Mon, 01 Oct 2018 01:03:57 -0500</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/publication/deep-fundamental-matrix-estimation-without-correspondences/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generative Adversarial Perturbations</title>
+      <link>https://omidpoursaeed.github.io/publication/generative-adversarial-perturbations/</link>
+      <pubDate>Fri, 01 Jun 2018 01:03:57 -0500</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/publication/generative-adversarial-perturbations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stacked Generative Adversarial Networks</title>
+      <link>https://omidpoursaeed.github.io/publication/stacked-generative-adversarial-networks/</link>
+      <pubDate>Mon, 03 Jul 2017 02:00:59 -0500</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/publication/stacked-generative-adversarial-networks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vision Based Real Estate Price Estimation</title>
+      <link>https://omidpoursaeed.github.io/publication/vision-based-real-estate-price-estimation/</link>
+      <pubDate>Sat, 03 Jun 2017 02:01:33 -0500</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/publication/vision-based-real-estate-price-estimation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
