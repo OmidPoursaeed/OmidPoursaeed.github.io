@@ -116,7 +116,7 @@ a:focus {
 img,
 video {
   height: auto;
-  max-width: 97%; #200px;
+  max-width: 95%; #200px;
   display: inline-block;
 }
 
@@ -618,7 +618,7 @@ article {
   color: rgba(0, 0, 0, 0.54);
   font-size: 0.61em !important; #0.81em;
   padding-top: 6px;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .pub-banner {
@@ -626,13 +626,13 @@ article {
   height: auto !important;
   margin-left: auto;
   margin-right: auto;
-  font-size: 0.6rem;
+  font-size: 0.5rem;
 }
 
 .pub .pub-title {
-  max-width: 60% !important;
-  margin-bottom: 5px;
-  font-size: 1.15rem;
+  max-width: 50% !important;
+  margin-bottom: 4px;
+  font-size: 1.0rem;
 }
 
 .pub .pub-authors {
@@ -646,27 +646,27 @@ article {
 }
 
 .pub-list-item {
-  max-width: 90% !important;
+  max-width: 89% !important;
   margin-bottom: 40px;
 }
 
 .pub-list-item .pub-abstract {
-  max-width: 90% !important;
+  max-width: 89% !important;
   padding-top: 5px;
-  font-size: 0.97rem;
+  font-size: 0.95rem;
 }
 
 .pub-list-item .pub-authors {
   line-height: normal;
   font-style: normal;
-  max-width: 90% !important;
+  max-width: 89% !important;
   padding-top: 11px;
-  font-size: 1.03rem;
+  font-size: 1.02rem;
   color: #3170A5;
 }
 
 .pub-list-item .pub-publication {
-  max-width: 90% !important;
+  max-width: 89% !important;
   color: #090;
   padding-top: 5px;
   font-size: 1.0rem; #1rem;
