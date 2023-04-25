@@ -335,8 +335,7 @@
 <p><br/>
 I am a Research Scientist at <a href="https://ai.facebook.com" target="_blank">Meta AI</a>. Before joining Meta, I obtained my PhD from <a href="https://www.cornell.edu" target="_blank">Cornell University</a> with <a href="https://www.belongielab.org/team/" target="_blank">Serge Belongie</a>. My research interests include Computer Vision, Multi-modal Learning and Generative Models.
 <br/>
-I am hiring a PhD research intern with background in Computer Vision for summer 2023.
-<br/>
+I am hiring a PhD research intern with background in Computer Vision for summer 2023.<br />
 <br style="line-height: 1px" />
 <img src="/img/Logos_2022.png" alt="static/img/omid.png" /></p>
 
@@ -458,7 +457,7 @@ I am hiring a PhD research intern with background in Computer Vision for summer 
 
     <div class="col-md-12">
       <a href="https://omidpoursaeed.github.io/publication/smvit/">
-        <img src="/img/smvit.jpg" class="pub-banner"
+        <img src="/img/SMViT.png" class="pub-banner"
              itemprop="image">
       </a>
     </div>
@@ -472,7 +471,7 @@ I am hiring a PhD research intern with background in Computer Vision for summer 
 
       <div class="pub-abstract" itemprop="text">
         
-        
+        Modern multi-stage vision transformers have added several vision-specific components in the pursuit of supervised classification performance. While these components lead to effective accuracies and attractive FLOP counts, this added complexity actually makes these transformers slower than their vanilla ViT counterparts. In this paper, we argue that this additional bulk is actually unnecessary. By pretraining with a strong pretext task (MAE), we can strip out all the bells and whistles from a state-of-the-art multi-stage vision transformer without losing accuracy. In the process, we create Simple MViT, an extremely simple multi-stage vision transformer that is more accurate than previous models while being significantly faster both at inference and during training.
         
       </div>
 
@@ -483,7 +482,7 @@ I am hiring a PhD research intern with background in Computer Vision for summer 
       </div>
 
       <div class="pub-publication">
-        Under Review,&nbsp;2023.
+        ICML (Oral),&nbsp;2023.
       </div>
 
       <div class="pub-links">
@@ -491,6 +490,10 @@ I am hiring a PhD research intern with background in Computer Vision for summer 
 
 
 
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://omidpoursaeed.github.io/pdf/Simple_MViT.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
@@ -608,7 +611,7 @@ I am hiring a PhD research intern with background in Computer Vision for summer 
 
       <div class="pub-abstract" itemprop="text">
         
-        Pyramid Adversarial training has been shown to be very effective for improving clean accuracy and distribution-shift robustness of vision transformers. However, due to the iterative nature of adversarial training, the technique is up to 7 times more expensive than standard training. To make the method more efficient, we propose Universal Pyramid Adversarial training, where we learn a single pyramid adversarial pattern shared across the whole dataset instead of the sample-wise patterns. We decrease the computational cost of Pyramid Adversarial training by up to 70 percent while retaining the majority of its benefits. In addition, to the best of our knowledge, we are also the first to find that universal adversarial training can be leveraged to improve clean model performance.
+        Pyramid Adversarial training has been shown to be very effective for improving clean accuracy and robustness of vision transformers. However, due to the iterative nature of adversarial training, the technique is up to 7 times more expensive than standard training. To make the method more efficient, we propose Universal Pyramid Adversarial training, where we learn a single pyramid adversarial pattern shared across the whole dataset instead of the sample-wise patterns. We decrease the computational cost of Pyramid Adversarial training by up to 70 percent while retaining the majority of its benefits. In addition, to the best of our knowledge, we are also the first to find that universal adversarial training can be leveraged to improve clean model performance.
         
       </div>
 
@@ -835,6 +838,87 @@ I am hiring a PhD research intern with background in Computer Vision for summer 
     
 
     <div class="col-md-12">
+      <a href="https://omidpoursaeed.github.io/publication/few-shot/">
+        <img src="/img/Few_shot.png" class="pub-banner"
+             itemprop="image">
+      </a>
+    </div>
+    <div class="col-md-12">
+
+    
+
+      <h3 class="article-title" itemprop="name">
+        <a href="https://omidpoursaeed.github.io/publication/few-shot/" itemprop="url">Interpolative AutoEncoders for Unsupervised Few-Shot Image Generation</a>
+      </h3>
+
+      <div class="pub-abstract" itemprop="text">
+        
+        We aim to build image generation models that generalize to new domains from few examples. To this end, we first investigate the generalization properties of classic image generators, and discover that autoencoders generalize extremely well to new domains, even when trained on highly constrained data. We leverage this insight to produce a robust, unsupervised few-shot image generation algorithm, and introduce a novel training procedure based on recovering an image from data augmentations. Our Augmentation-Interpolative AutoEncoders synthesize realistic images of novel objects from only a few reference images, and outperform both prior interpolative models and supervised few-shot image generators.
+        
+      </div>
+
+      <div class="pub-authors" itemprop="author">
+        
+        Davis Wertheimer, Omid Poursaeed, Bharath Hariharan
+        
+      </div>
+
+      <div class="pub-publication">
+        ICLR,&nbsp;2020.
+      </div>
+
+      <div class="pub-links">
+        
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://omidpoursaeed.github.io/pdf/Few_shot.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+<button type="button" class="btn btn-primary btn-outline btn-xs js-cite-modal"
+        data-filename="/files/citations/few-shot.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://omidpoursaeed.github.io/pdf/Few_shot_Supp.pdf" target="_blank" rel="noopener">
+  Supp
+</a>
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/2011.13026.pdf" target="_blank" rel="noopener">
+  arXiv
+</a>
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="row">
+
+    
+
+    <div class="col-md-12">
       <a href="https://omidpoursaeed.github.io/publication/self-supervised/">
         <img src="/img/self_supervised.png" class="pub-banner"
              itemprop="image">
@@ -906,87 +990,6 @@ I am hiring a PhD research intern with background in Computer Vision for summer 
 
 <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2008.00305" target="_blank" rel="noopener">
   Arxiv
-</a>
-
-
-      </div>
-
-    </div>
-  </div>
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
-  <div class="row">
-
-    
-
-    <div class="col-md-12">
-      <a href="https://omidpoursaeed.github.io/publication/few-shot/">
-        <img src="/img/Few_shot.png" class="pub-banner"
-             itemprop="image">
-      </a>
-    </div>
-    <div class="col-md-12">
-
-    
-
-      <h3 class="article-title" itemprop="name">
-        <a href="https://omidpoursaeed.github.io/publication/few-shot/" itemprop="url">Interpolative AutoEncoders for Unsupervised Few-Shot Image Generation</a>
-      </h3>
-
-      <div class="pub-abstract" itemprop="text">
-        
-        We aim to build image generation models that generalize to new domains from few examples. To this end, we first investigate the generalization properties of classic image generators, and discover that autoencoders generalize extremely well to new domains, even when trained on highly constrained data. We leverage this insight to produce a robust, unsupervised few-shot image generation algorithm, and introduce a novel training procedure based on recovering an image from data augmentations. Our Augmentation-Interpolative AutoEncoders synthesize realistic images of novel objects from only a few reference images, and outperform both prior interpolative models and supervised few-shot image generators.
-        
-      </div>
-
-      <div class="pub-authors" itemprop="author">
-        
-        Davis Wertheimer, Omid Poursaeed, Bharath Hariharan
-        
-      </div>
-
-      <div class="pub-publication">
-        ICLR submission,&nbsp;2020.
-      </div>
-
-      <div class="pub-links">
-        
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://omidpoursaeed.github.io/pdf/Few_shot.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-<button type="button" class="btn btn-primary btn-outline btn-xs js-cite-modal"
-        data-filename="/files/citations/few-shot.bib">
-  Cite
-</button>
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://omidpoursaeed.github.io/pdf/Few_shot_Supp.pdf" target="_blank" rel="noopener">
-  Supp
-</a>
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/2011.13026.pdf" target="_blank" rel="noopener">
-  arXiv
 </a>
 
 
@@ -1614,9 +1617,7 @@ I am hiring a PhD research intern with background in Computer Vision for summer 
     
   </div>
   <div class="col-xs-12 col-md-8">
-    <p>Reviewer for CVPR, NeurIPS, ICCV, ECCV, ICLR, AAAI, IEEE TPAMI, IEEE Transactions on Multimedia, IEEE Transactions on Information Forensics &amp; Security, ACM Transactions on Privacy and Security, IEEE Transactions on Industrial Electronics <br />
-<br />
-Program Committee Member for CVPR Workshop on Adversarial Machine Learning</p>
+    <p>Reviewer for CVPR, NeurIPS, ICCV, ECCV, ICLR, AAAI, IEEE TPAMI, IEEE Transactions on Multimedia, IEEE Transactions on Information Forensics &amp; Security, ACM Transactions on Privacy and Security, IEEE Transactions on Industrial Electronics, CVPR Workshop on Adversarial Machine Learning</p>
 
   </div>
   
