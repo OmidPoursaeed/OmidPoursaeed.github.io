@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Learning to Localize Objects Improves Spatial Reasoning in Visual-LLMs</title>
+      <link>https://omidpoursaeed.github.io/publication/vllm/</link>
+      <pubDate>Fri, 02 Feb 2024 02:01:33 -0500</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/publication/vllm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Open Vocabulary Semantic Segmentation with Patch Aligned Contrastive Learning</title>
       <link>https://omidpoursaeed.github.io/publication/pacl/</link>
       <pubDate>Thu, 02 Feb 2023 02:01:33 -0500</pubDate>
@@ -133,15 +142,6 @@
       <pubDate>Mon, 03 Jul 2017 02:00:59 -0500</pubDate>
       
       <guid>https://omidpoursaeed.github.io/publication/stacked-generative-adversarial-networks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vision Based Real Estate Price Estimation</title>
-      <link>https://omidpoursaeed.github.io/publication/vision-based-real-estate-price-estimation/</link>
-      <pubDate>Sat, 03 Jun 2017 02:01:33 -0500</pubDate>
-      
-      <guid>https://omidpoursaeed.github.io/publication/vision-based-real-estate-price-estimation/</guid>
       <description></description>
     </item>
     
