@@ -65,15 +65,6 @@
     </item>
     
     <item>
-      <title>Universal Pyramid Adversarial Training for Improved ViT Performance</title>
-      <link>https://omidpoursaeed.github.io/publication/uni_at/</link>
-      <pubDate>Sun, 01 Jan 2023 02:01:33 -0500</pubDate>
-      
-      <guid>https://omidpoursaeed.github.io/publication/uni_at/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Robustness and Generalization via Generative Adversarial Training</title>
       <link>https://omidpoursaeed.github.io/publication/fine-grained-unrestricted/</link>
       <pubDate>Wed, 03 Mar 2021 02:01:33 -0500</pubDate>
@@ -88,15 +79,6 @@
       <pubDate>Thu, 02 Jul 2020 02:01:33 -0500</pubDate>
       
       <guid>https://omidpoursaeed.github.io/publication/hybrid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Interpolative AutoEncoders for Unsupervised Few-Shot Image Generation</title>
-      <link>https://omidpoursaeed.github.io/publication/few-shot/</link>
-      <pubDate>Sat, 06 Jun 2020 02:01:33 -0500</pubDate>
-      
-      <guid>https://omidpoursaeed.github.io/publication/few-shot/</guid>
       <description></description>
     </item>
     
@@ -142,6 +124,24 @@
       <pubDate>Fri, 01 Jun 2018 01:03:57 -0500</pubDate>
       
       <guid>https://omidpoursaeed.github.io/publication/generative-adversarial-perturbations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stacked Generative Adversarial Networks</title>
+      <link>https://omidpoursaeed.github.io/publication/stacked-generative-adversarial-networks/</link>
+      <pubDate>Mon, 03 Jul 2017 02:00:59 -0500</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/publication/stacked-generative-adversarial-networks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vision Based Real Estate Price Estimation</title>
+      <link>https://omidpoursaeed.github.io/publication/vision-based-real-estate-price-estimation/</link>
+      <pubDate>Sat, 03 Jun 2017 02:01:33 -0500</pubDate>
+      
+      <guid>https://omidpoursaeed.github.io/publication/vision-based-real-estate-price-estimation/</guid>
       <description></description>
     </item>
     
